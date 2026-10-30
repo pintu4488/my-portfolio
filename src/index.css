@@ -1,0 +1,26 @@
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-container {
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+  width: 100%;
+}
+
+.marquee-track {
+  display: inline-flex;
+  gap: 20px;
+  animation: scrollLeft 25s linear infinite;
+}
+
+/* जब यूजर माउस इसके ऊपर ले जाए, तो स्क्रॉल रुक जाए */
+.marquee-container:hover .marquee-track {
+  animation-play-state: paused;
+}
