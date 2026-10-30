@@ -93,7 +93,7 @@ export default function Portfolio() {
               <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info pulse-badge">
                 Instagram
               </a>
-              <a href="https://share.google/yNVckGB6jOKEKRQbz" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info pulse-badge">
+              <a href="https://share.google/qtf0gqdMcZQ2M5Beu" target="_blank" rel="noopener noreferrer" className="btn btn-sm btn-outline-info pulse-badge">
                 Google Business
               </a>
             </div>
